@@ -1,4 +1,4 @@
-module.exports = () => {
+const plugin = () => {
   return {
     postcssPlugin: "postcss-dynamic-value",
 
@@ -14,4 +14,6 @@ module.exports = () => {
     },
 }}
 
-module.exports.postcss = true
+plugin.postcss = true
+
+export default plugin

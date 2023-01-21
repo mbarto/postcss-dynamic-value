@@ -1,6 +1,6 @@
-const postcss = require('postcss')
+import postcss from 'postcss'
 
-const plugin = require('./')
+import plugin from '.'
 
 async function run (input, output, opts = { }) {
   let result = await postcss([plugin(opts)]).process(input, { from: undefined })
