@@ -1,6 +1,6 @@
 {
   "name": "postcss-dynamic-value",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "PostCSS plugin that implements input actual value selectors",
   "keywords": [
     "postcss",
